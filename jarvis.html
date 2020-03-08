@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Responsive website template for mobile app</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Covered+By+Your+Grace' rel='stylesheet' type='text/css'>
+    <!-- FontAwesome JS-->
+    <script defer src="https://use.fontawesome.com/releases/v5.8.0/js/all.js" integrity="sha384-ukiibbYjFS/1dhODSWD+PrZ6+CGCgf8VbyUH7bQQNUulL+2r59uGYToovytTf4Xm" crossorigin="anonymous"></script>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/plugins/flexslider/flexslider.css">
+    <link rel="stylesheet" href="assets/plugins/animate-css/animate.min.css">
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/theme-4.css">
+</head>
+
+<body>
+    <!-- ******HEADER****** -->
+    <header id="top" class="header fixed-top">
+        <div class="container">
+            <h1 class="logo float-left">
+                <a href="jarvis.html">
+                    <img id="logo-image" class="logo-image" src="assets/images/logo/logo.png" alt="Logo">
+                    <span class="logo-title">Jarvis Reports</span>
+                </a>
+            </h1><!--//logo-->
+            <nav id="main-nav" class="main-nav navbar-light navbar-expand-md" role="navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse justify-content-end" id="navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active nav-item sr-only"><a class="scrollto" href="#promo">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html">Timeline</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Me <div class="badge badge-warning"> coming soon</div></a></li>
+                        <li class="nav-item"><a class="nav-link scrollto" href="#features">Features</a></li>
+                        <li class="nav-item last"><a class="nav-link scrollto" href="#contact">Contact</a></li>
+                    </ul><!--//nav-->
+                </div><!--//navabr-collapse-->
+            </nav><!--//main-nav-->
+        </div>
+    </header><!--//header-->
+
+    <!-- ******PROMO****** -->
+    <section id="promo" class="promo section offset-header has-pattern">
+        <div class="container">
+            <div class="row">
+                <div class="overview col-lg-8 col-12">
+                    <h2 class="title">Jarvis Reports</h2>
+                    <ul class="summary">
+                        <li>App based daily, hourly and weekly reports via push notification including</li>
+                        <li>Hourly and daily weather forecast</li>
+                        <li>Today's calendar events</li>
+                        <li>Daily and weekly stock reports and top Twitter tweets</li>
+                        <li>Today widgets for current top tweets and stocks</li>
+                    </ul>
+                    <div class="download-area">
+                        <ul class="list-inline">
+                            <li class="ios-btn list-inline-item" style="opacity: 0"><a>Download from the App Store</a></li>
+                            <li class="android-btn list-inline-item" style="opacity: 0"><a>Get it from Google Play</a></li>
+                        </ul>
+                        <div class="note text-center">
+                            <p>Sourcecode costing 50.000 €*</p>
+                        </div><!--//note-->
+                    </div>
+                </div><!--//overview-->
+
+                <div id="carouselExampleControls" class="carousel slide col-lg-4 col-12" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="assets/jarvis/slide-notification.png" class="d-block w-100" style="padding: 25px" alt="" />
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/jarvis/slide-report.png" class="d-block w-100" style="padding: 25px" alt="" />
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/jarvis/slide-overview.png" class="d-block w-100" style="padding: 25px" alt="" />
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+            </div><!--//row-->
+        </div><!--//container-->
+    </section><!--//promo-->
+
+    <!-- ******FEATURES****** -->
+    <section id="features" class="features section">
+        <div class="container">
+            <div class="row">
+                <h2 class="title text-center sr-only">Features</h2>
+                <div class="item col-lg-3 col-md-6 col-12 text-center">
+                    <div class="icon">
+                        <i class="far fa-sun"></i>
+                    </div><!--//icon-->
+                    <div class="content">
+                        <h3 class="title">Weather</h3>
+
+                        <p>Hourly and weekly forecast reports. </p>
+                        <button class="modal-trigger btn btn-link" data-toggle="modal" data-target="#modal-weather">Find out more</button>
+                    </div><!--//content-->
+                </div><!--//item-->
+                <div class="item col-lg-3 col-md-6 col-12 text-center">
+                    <div class="icon">
+                        <i class="far fa-calendar"></i>
+                    </div><!--//icon-->
+                    <div class="content">
+                        <h3 class="title">Calendar</h3>
+                        <p>View today's calendar events. </p>
+                    </div><!--//content-->
+                </div><!--//item-->
+                <div class="item col-lg-3 col-md-6 col-12 text-center">
+                    <div class="icon">
+                        <i class="fas fa-chart-area"></i>
+                    </div><!--//icon-->
+                    <div class="content">
+                        <h3 class="title">Stocks</h3>
+                        <p>Daily and weekly profolio reports. </p>
+                        <button class="modal-trigger btn btn-link" data-toggle="modal" data-target="#modal-portfolio">Find out more</button>
+                    </div><!--//content-->
+                </div><!--//item-->
+                <div class="item col-lg-3 col-md-6 col-12 text-center">
+                    <div class="icon">
+                        <i class="fab fa-twitter"></i>
+                    </div><!--//icon-->
+                    <div class="content">
+                        <h3 class="title">Twitter</h3>
+                        <p>Top tweets. </p>
+                        <button class="modal-trigger btn btn-link" data-toggle="modal" data-target="#modal-twitter">Find out more</button>
+                    </div><!--//content-->
+                </div><!--//item-->
+            </div><!--//row-->
+
+            <div class="row feature-row-last">
+              <div class="item col-lg-6 col-md-6 col-12 text-center">
+                  <div class="icon">
+                      <i class="fas fa-chart-pie"></i>
+                  </div><!--//icon-->
+                  <div class="content">
+                      <h3 class="title">Live</h3>
+                      <p>Today widgets for live top tweets and live stock reports. </p>
+                      <button class="modal-trigger btn btn-link" data-toggle="modal" data-target="#modal-widget">Find out more</button>
+                  </div><!--//content-->
+              </div><!--//item-->
+
+                <div class="item col-lg-6 col-md-6 col-12 text-center">
+                    <div class="icon">
+                        <i class="fas fa-stopwatch"></i>
+                    </div><!--//icon-->
+                    <div class="content">
+                        <h3 class="title">Scheduled and manual reports</h3>
+                        <p>Notifications based on time-defined triggers and reports by manually creating them.</p>
+                        <button class="modal-trigger btn btn-link" data-toggle="modal" data-target="#modal-reports">Find out more</button>
+                    </div><!--//content-->
+                </div><!--//item-->
+            </div><!--//row-->
+        </div><!--//container-->
+    </section><!--//features-->
+
+    <!-- ******CONTACT****** -->
+    <section id="contact" class="contact section has-pattern">
+        <div class="container">
+            <h2 class="title text-center">Contact US</h2>
+            <div class="row text-center">
+                <div class="intro col-lg-6 col-12 ml-lg-auto mr-lg-auto">
+                    <p>We’d love to hear from you. Contact us via E-Mail</p>
+                    <ul class="list-unstyled contact-details">
+                        <li><i class="fas fa-envelope"></i><a href="mailto:kontakt@monkeyspot.io">kontakt@monkeyspot.io</a></li>
+                    </ul>
+                    <small>*plus 19% MwSt.</small>
+                </div>
+            </div><!--//row-->
+        </div><!--//container-->
+    </section><!--//contact-->
+
+    <!-- ******FOOTER****** -->
+    <footer class="footer">
+        <div class="container text-center">
+            <small class="copyright">Template Copyright &copy; <a href="http://themes.3rdwavemedia.com/" target="_blank">3rd Wave Media</a></small>
+        </div>
+    </footer><!--//footer-->
+
+    <!-- Feature Modal -->
+    <div class="modal modal-feature" id="modal-weather" tabindex="-1" role="dialog" aria-labelledby="featureModalLabel-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content shadow-lg border-0">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 id="featureModalLabel-1" class="modal-title text-center">Weather</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <figure class="figure col-lg-6 col-12">
+                            <img class="img-fluid rounded" src="assets/jarvis/modal-weather.png" alt="" />
+                            <figcaption class="caption">Dark Sky-API Key available <a href="https://darksky.net/dev" target="_blank">here</a> </figcaption>
+                        </figure>
+                        <div class="content col-lg-6 col-12">
+                            <p>Get weather reports for the current location for the</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-star"></i>upcoming hours or</li>
+                                <li><i class="fas fa-star"></i>upcoming days</li>
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//row-->
+                </div><!--//modal-body-->
+            </div><!--//modal-content-->
+        </div><!--//modal-dialog-->
+    </div><!--//modal-->
+
+    <!-- Feature Modal -->
+    <div class="modal modal-feature" id="modal-portfolio" tabindex="-1" role="dialog" aria-labelledby="featureModalLabel-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content shadow-lg border-0">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 id="featureModalLabel-1" class="modal-title text-center">Stocks</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <figure class="figure col-lg-6 col-12">
+                            <img class="img-fluid rounded" src="assets/jarvis/modal-portfolio.png" alt="" />
+                            <figcaption class="caption">Alpha Vantage API Key <a href="https://www.alphavantage.co" target="_blank">required</a> </figcaption>
+                        </figure>
+                        <div class="content col-lg-6 col-12">
+                            <p>Loss and wins of your portfolios by stocks supported in EUR and USD currencies.</p>
+                            <p>Number of stocks bought and sold on specific dates.</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-star"></i>Unified portfolio report or</li>
+                                <li><i class="fas fa-star"></i>per asset reports</li>
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//row-->
+                </div><!--//modal-body-->
+            </div><!--//modal-content-->
+        </div><!--//modal-dialog-->
+    </div><!--//modal-->
+
+    <!-- Feature Modal -->
+    <div class="modal modal-feature" id="modal-twitter" tabindex="-1" role="dialog" aria-labelledby="featureModalLabel-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content shadow-lg border-0">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 id="featureModalLabel-1" class="modal-title text-center">Twitter</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <figure class="figure col-lg-6 col-12">
+                            <img class="img-fluid rounded" src="assets/jarvis/modal-twitter.png" alt="" />
+                            <figcaption class="caption">Twitter-App required from <a href="https://dev.twitter.com/apps" target="_blank">here</a> </figcaption>
+                        </figure>
+                        <div class="content col-lg-6 col-12">
+                            <p>View top tweets of</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-star"></i>Your own timeline</li>
+                                <li><i class="fas fa-star"></i>from other people's timelines and favorites</li>
+                            </ul>
+                            <p>Optionally excluded from today preview widget.</p>
+                        </div><!--//content-->
+                    </div><!--//row-->
+                </div><!--//modal-body-->
+            </div><!--//modal-content-->
+        </div><!--//modal-dialog-->
+    </div><!--//modal-->
+
+
+
+    <!-- Feature Modal -->
+    <div class="modal modal-feature" id="modal-widget" tabindex="-1" role="dialog" aria-labelledby="featureModalLabel-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content shadow-lg border-0">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 id="featureModalLabel-1" class="modal-title text-center">Live</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <figure class="figure col-lg-6 col-12">
+                          <div id="carouselModalWidget" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="assets/jarvis/modal-widget-stocks.png" class="d-block w-100" alt="" />
+                              </div>
+                              <div class="carousel-item">
+                                <img src="assets/jarvis/modal-widget-tweets.png" class="d-block w-100" alt="" />
+                              </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselModalWidget" role="button" data-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselModalWidget" role="button" data-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Next</span>
+                            </a>
+                          </div>
+                        </figure>
+                        <div class="content col-lg-6 col-12">
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-star"></i>View your portfolio's live performance and</li>
+                                <li><i class="fas fa-star"></i>the current's top tweets</li>
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//row-->
+                </div><!--//modal-body-->
+            </div><!--//modal-content-->
+        </div><!--//modal-dialog-->
+    </div><!--//modal-->
+
+    <!-- Feature Modal -->
+    <div class="modal modal-feature" id="modal-reports" tabindex="-1" role="dialog" aria-labelledby="featureModalLabel-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content shadow-lg border-0">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 id="featureModalLabel-1" class="modal-title text-center">Reports</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <figure class="figure col-lg-6 col-12">
+                            <div id="carouselModalReports" class="carousel slide" data-ride="carousel">
+                              <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                  <img src="assets/jarvis/modal-reports-notification.png" class="d-block w-100" alt="" />
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="assets/jarvis/modal-reports-manual.png" class="d-block w-100" alt="" />
+                                </div>
+                              </div>
+                              <a class="carousel-control-prev" href="#carouselModalReports" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                              </a>
+                              <a class="carousel-control-next" href="#carouselModalReports" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                              </a>
+                            </div>
+                        </figure>
+                        <div class="content col-lg-6 col-12">
+                            <p>Configure notifications by specific time of certain weekdays or create them manually.</p>
+                        </div><!--//content-->
+                    </div><!--//row-->
+                </div><!--//modal-body-->
+            </div><!--//modal-content-->
+        </div><!--//modal-dialog-->
+    </div><!--//modal-->
+
+    <!-- Feature Modal -->
+    <div class="modal modal-feature" id="modal-twitter" tabindex="-1" role="dialog" aria-labelledby="featureModalLabel-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content shadow-lg border-0">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 id="featureModalLabel-1" class="modal-title text-center">Twitter</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <figure class="figure col-lg-6 col-12">
+                            <img class="img-fluid rounded" src="assets/iphone/modal-twitter.png" alt="" />
+                            <figcaption class="caption">Twitter-App required from <a href="https://dev.twitter.com/apps" target="_blank">here</a> </figcaption>
+                        </figure>
+                        <div class="content col-lg-6 col-12">
+                            <p>Configure a section based on Tweets by</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-star"></i>Timelines</li>
+                                <li><i class="fas fa-star"></i>Favorites</li>
+                            </ul>
+                            <p>of profiles and filter by retweets and attached images or videos. Define VIP relations and choose from a logged in account.</p>
+                        </div><!--//content-->
+                    </div><!--//row-->
+                </div><!--//modal-body-->
+            </div><!--//modal-content-->
+        </div><!--//modal-dialog-->
+    </div><!--//modal-->
+
+    <!-- Feature Modal -->
+    <div class="modal modal-feature" id="modal-youtube" tabindex="-1" role="dialog" aria-labelledby="featureModalLabel-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content shadow-lg border-0">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 id="featureModalLabel-1" class="modal-title text-center">YouTube</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <figure class="figure col-lg-6 col-12">
+                            <img class="img-fluid rounded" src="assets/iphone/modal-youtube.png" alt="" />
+                            <figcaption class="caption">YouTube API access required from <a href="https://developers.google.com/youtube/v3/getting-started" target="_blank">here</a> </figcaption>
+                        </figure>
+                        <div class="content col-lg-6 col-12">
+                            <p>Configure a section based on Videos of channels.</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-star"></i>Only show previews or</li>
+                                <li><i class="fas fa-star"></i>watch videos</li>
+                            </ul>
+                            <p>based on quota defined settings.</p>
+                            <p>Save previews or videos optionally in the archive. Support for multiple accounts.</p>
+                        </div><!--//content-->
+                    </div><!--//row-->
+                </div><!--//modal-body-->
+            </div><!--//modal-content-->
+        </div><!--//modal-dialog-->
+    </div><!--//modal-->
+
+    <!-- Feature Modal -->
+    <div class="modal modal-feature" id="modal-9gag" tabindex="-1" role="dialog" aria-labelledby="featureModalLabel-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content shadow-lg border-0">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 id="featureModalLabel-1" class="modal-title text-center">9Gag</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <figure class="figure col-lg-6 col-12">
+                            <img class="img-fluid rounded" src="assets/iphone/modal-9gag.png" alt="" />
+                            <figcaption class="caption">Widget support </figcaption>
+                        </figure>
+                        <div class="content col-lg-6 col-12">
+                            <p>Search for new content based on the last X backtracked pages of</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-star"></i>all sections and</li>
+                                <li><i class="fas fa-star"></i>hot media only </li>
+                            </ul>
+                            <p>Support for images, videos and linked videos from YouTube.</p>
+                        </div><!--//content-->
+                    </div><!--//row-->
+                </div><!--//modal-body-->
+            </div><!--//modal-content-->
+        </div><!--//modal-dialog-->
+    </div><!--//modal-->
+
+
+
+    <!-- Feature Modal -->
+    <div class="modal modal-feature" id="modal-archive" tabindex="-1" role="dialog" aria-labelledby="featureModalLabel-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content shadow-lg border-0">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 id="featureModalLabel-1" class="modal-title text-center">Archive & Inbox</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <figure class="figure col-lg-6 col-12">
+                            <img class="img-fluid rounded" src="assets/iphone/modal-archive.png" alt="" />
+                            <figcaption class="caption">A provisioned iCloud container is <a href="https://icloud.developer.apple.com/dashboard/" target="_blank">required</a> </figcaption>
+                        </figure>
+                        <div class="content col-lg-6 col-12">
+                            <p>Filter previous content by</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-star"></i>Stories</li>
+                                <li><i class="fas fa-star"></i>Images and Videos</li>
+                                <li><i class="fas fa-star"></i>Posts</li>
+                            </ul>
+                            <p>Search through archives by</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-star"></i>owner</li>
+                                <li><i class="fas fa-star"></i>content</li>
+                            </ul>
+                            <p>View and save messages, including images and videos.</p>
+                        </div><!--//content-->
+                    </div><!--//row-->
+                </div><!--//modal-body-->
+            </div><!--//modal-content-->
+        </div><!--//modal-dialog-->
+    </div><!--//modal-->
+
+    <!-- Feature Modal -->
+    <div class="modal modal-feature" id="modal-calendar" tabindex="-1" role="dialog" aria-labelledby="featureModalLabel-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content shadow-lg border-0">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 id="featureModalLabel-1" class="modal-title text-center">Calendar</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <figure class="figure col-lg-6 col-12">
+                            <img class="img-fluid rounded" src="assets/iphone/modal-calendar.png" alt="" />
+                            <figcaption class="caption">Sample configuration </figcaption>
+                        </figure>
+                        <div class="content col-lg-6 col-12">
+                            <p>Define the number of upcoming events</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-star"></i>including all of today</li>
+                            </ul>
+                            <p>Restrict events to certain calendars or display events of all calendars.</p>
+                        </div><!--//content-->
+                    </div><!--//row-->
+                </div><!--//modal-body-->
+            </div><!--//modal-content-->
+        </div><!--//modal-dialog-->
+    </div><!--//modal-->
+
+    <!-- Feature Modal -->
+    <div class="modal modal-feature" id="modal-reminders" tabindex="-1" role="dialog" aria-labelledby="featureModalLabel-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content shadow-lg border-0">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 id="featureModalLabel-1" class="modal-title text-center">Reminders</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <figure class="figure col-lg-6 col-12">
+                            <img class="img-fluid rounded" src="assets/iphone/modal-reminders.png" alt="" />
+                            <figcaption class="caption">Sample configuration </figcaption>
+                        </figure>
+                        <div class="content col-lg-6 col-12">
+                            <p>Select from configured reminder-lists and choose to include completed reminders.</p>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-star"></i>Complete reminders straight from your timeline.</li>
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//row-->
+                </div><!--//modal-body-->
+            </div><!--//modal-content-->
+        </div><!--//modal-dialog-->
+    </div><!--//modal-->
+
+    <!-- Javascript -->
+    <script type="text/javascript" src="assets/plugins/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/popper.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/isMobile/isMobile.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-inview/jquery.inview.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/flexslider/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-match-height/jquery.matchHeight-min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+    <!--[if !IE]>-->
+    <script type="text/javascript" src="assets/js/animations.js"></script>
+    <!--<![endif]-->
+    <!-- Theme Switcher (REMOVE ON YOUR PRODUCTION SITE) -->
+    <script type="text/javascript" src="assets/js/demo/theme-switcher.js"></script>
+</body>
+</html>
